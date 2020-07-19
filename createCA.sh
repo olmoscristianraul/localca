@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p 'Ingresar nombre de la Autoridad Certificante (HCSinergiaCA): ' caFileName
-read -p 'Ingresar nombre del dominio (pve.odoo.com): ' CANAME
+read -p 'Ingresar nombre del dominio (odoo.example.com): ' CANAME
 printf "\n\n (+) Generating CA Key"
 #for some reason windows 10 displays password on prompt, so hiding.. 
 stty -echo
